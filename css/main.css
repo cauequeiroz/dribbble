@@ -116,3 +116,12 @@ body {
 .search {
 	float: right;
 }
+.search input {
+	width: 220px;
+	height: 25px;
+	padding: 5px 5px 5px 25px;
+	border-radius: 5px;
+	border: none;
+	margin: 15px 30px 0 0;
+	background: #fff url("https://d13yacurqjgara.cloudfront.net/assets/icon-search-7a07ad9f258fc1d8c28a29faa5627b41c2cc353d138b6bc3e987e0719584ce69.png") no-repeat 5px 5px;
+}
