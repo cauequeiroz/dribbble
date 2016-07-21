@@ -6,5 +6,97 @@
   ========================================
 */
 body {
+	font: 16px Arial, sans-serif;
+}
 
+/*
+  ========================================
+  Header
+  ========================================
+*/
+.main-header {
+	width: 100%;
+	height: 56px;
+	background: #333;
+}
+
+.logo {
+	width: 76px;
+	height: 56px;
+	margin: 0 20px 0 30px;
+	text-indent: -999em;
+	float: left;
+	background: url("https://d13yacurqjgara.cloudfront.net/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png") no-repeat center center;
+}
+.logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav li {
+	display: inline-block;
+}
+.nav a {
+	font-size: 14px;
+	color: #999;
+	line-height: 56px;
+	padding: 0 10px;
+}
+.nav a:hover {
+	color: #ddd;
+}
+.nav .active {
+	color: #fff;
+}
+
+.main-nav {
+	float: left;
+}
+.main-nav > ul > li {
+	position: relative;
+}
+.main-nav > ul > li:hover .submenu {
+	display: block;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	top: 56px;
+	left: 0;
+	width: 180px;
+	background: rgba(47,47,47,0.98);
+	padding-bottom: 10px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.submenu li {
+	display: block;
+}
+.submenu a {
+	display: block;
+	line-height: 1;
+	padding: 5px 10px;
+	font-size: 13px;
+}
+.submenu a:hover {
+	background: rgba(255,255,255,0.1);
+}
+.submenu .separator {
+	text-indent: -999em;
+	background: rgba(255,255,255,0.1);
+	height: 1px;
+	margin: 4px 0;
+}
+
+
+
+.account {
+	float: right;
+	margin-right: 10px;
+}
+
+.search {
+	float: right;
 }

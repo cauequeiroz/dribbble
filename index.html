@@ -8,13 +8,13 @@
 <body>
 	
 	<header class="main-header">
-		<h1 class="logo">Dribbble</h1>
+		<h1 class="logo"><a href="#">Dribbble</a></h1>
 
-		<nav class="main-nav">
+		<nav class="nav main-nav">
 			<ul>
 				<li>
-					<a href="#">Shots</a>
-					<ul>
+					<a href="#" class="active">Shots</a>
+					<ul class="submenu">
 						<li><a href="#">Popular</a></li>
 						<li><a href="#">Recent</a></li>
 						<li><a href="#">Teams</a></li>
@@ -25,7 +25,7 @@
 				</li>
 				<li>
 					<a href="#">Designers</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">All</a></li>
 						<li><a href="#">For Hire</a></li>
 						<li class="separator">Separator</li>
@@ -37,7 +37,7 @@
 				</li>
 				<li>
 					<a href="#">Teams</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">All</a></li>
 						<li><a href="#">Hiring Designers</a></li>
 						<li><a href="#">Design Teams for Hire</a></li>
@@ -47,7 +47,7 @@
 				</li>
 				<li>
 					<a href="#">Stories</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">Latest Stories</a></li>
 						<li class="separator">Separator</li>
 						<li><a href="#">The UX Files: UXPin</a></li>
@@ -59,14 +59,14 @@
 				</li>
 				<li>
 					<a href="#">Meetups</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">Meetups</a></li>
 						<li><a href="#">Host a Meetup</a></li>
 					</ul>
 				</li>
 				<li>
 					<a href="#">Shop</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">Goods by Designers</a></li>
 						<li><a href="#">Deals for Designers</a></li>
 						<li class="separator">Separator</li>
@@ -75,7 +75,7 @@
 				</li>
 				<li>
 					<a href="#">Jobs</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">All</a></li>
 						<li><a href="#">Remote / Anywhere</a></li>
 						<li><a href="#">@ Teams</a></li>
@@ -85,7 +85,7 @@
 				</li>
 				<li>
 					<a href="#">More</a>
-					<ul>
+					<ul class="submenu">
 						<li><a href="#">Highlights</a></li>
 						<li><a href="#">Projects</a></li>
 						<li><a href="#">Buckets</a></li>
@@ -104,16 +104,16 @@
 					</ul>
 				</li>
 			</ul>
-
-			<ul class="account">
-				<li><a href="#">Sign up</a></li>
-				<li><a href="#">Sign in</a></li>
-			</ul>
-
-			<form class="search" action="#" method="GET">
-				<input type="text" name="search" placeholder="Search">
-			</form>
 		</nav>
+
+		<form class="search" action="#" method="GET">
+			<input type="text" name="search" placeholder="Search">
+		</form>
+
+		<ul class="nav account">
+			<li><a href="#">Sign up</a></li>
+			<li><a href="#">Sign in</a></li>
+		</ul>
 	</header>
 
 </body>
