@@ -125,3 +125,41 @@ body {
 	margin: 15px 30px 0 0;
 	background: #fff url("https://d13yacurqjgara.cloudfront.net/assets/icon-search-7a07ad9f258fc1d8c28a29faa5627b41c2cc353d138b6bc3e987e0719584ce69.png") no-repeat 5px 5px;
 }
+
+/*
+  ========================================
+  Welcome
+  ========================================
+*/
+.welcome {
+	background: #444;
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+}
+.welcome p {
+	display: inline-block;
+	color: #999;
+}
+.welcome p strong {
+	color: #fff;
+}
+.welcome .btn {
+	padding: 0 12px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 4px;
+	background: #999;
+	height: 38px;
+	line-height: 38px;
+	display: inline-block;
+}
+.welcome .btn-primary {
+	background: #ea4c89 url("https://d13yacurqjgara.cloudfront.net/assets/button-glass-861b265bf67caff1d6e613ca1758ce443b59d676cb7fceca293a9891aef250a8.png") repeat-x 0 0;
+}
+.welcome .btn:hover {
+	background: #888;
+}
+.welcome .btn-primary:hover {
+	background: #df3e7b url("https://d13yacurqjgara.cloudfront.net/assets/button-glass-861b265bf67caff1d6e613ca1758ce443b59d676cb7fceca293a9891aef250a8.png") repeat-x 0 0;
+}
