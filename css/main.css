@@ -7,6 +7,7 @@
 */
 body {
 	font: 16px Arial, sans-serif;
+	background: #F4F4F4;
 }
 
 /*
@@ -162,4 +163,55 @@ body {
 }
 .welcome .btn-primary:hover {
 	background: #df3e7b url("https://d13yacurqjgara.cloudfront.net/assets/button-glass-861b265bf67caff1d6e613ca1758ce443b59d676cb7fceca293a9891aef250a8.png") repeat-x 0 0;
+}
+
+/*
+  ========================================
+  Cards Filter
+  ========================================
+*/
+.cards-filter {
+	text-align: center;
+	height: 50px;
+	background: rgba(255,255,255,0.6);
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown > li {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #444;
+	padding: 0 28px 0 8px;
+}
+.dropdown > li:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 2px;
+	width: 18px;
+	height: 50px;
+	background: url("https://d13yacurqjgara.cloudfront.net/assets/icon-dd-arrow-5cd53c3f7d2d5232122f093985affef2493f0e1b8af5cdc559180fdeff62366c.png") no-repeat center center;
+}
+.dropdown > li > a {
+	display: block;
+}
+.dropdown > li:hover .submenu {
+	display: block;
+}
+.dropdown .submenu {
+	display: none;
+	top: 49px;
+	width: 200px;
+	background: #fbfbfb;
+	font-size: 13px;
+	text-align: left;
+	color: #999;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+.dropdown .submenu li:hover {
+	color: #444;
+	background: #eee;
 }
