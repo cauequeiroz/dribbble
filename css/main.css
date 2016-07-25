@@ -328,7 +328,7 @@ body {
 	margin-bottom: 10px;	
 }
 .info p {
-	width: 310px;
+	width: 72%;
 }
 
 .nav-alt li {
@@ -368,7 +368,6 @@ body {
 }
 
 .ads {
-	width: 450px;
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
