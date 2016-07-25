@@ -272,10 +272,11 @@ body {
 	text-align: center;
 	background: #505050;
 	border-radius: 2px;
-}
-.display-opt .box li:hover {
-	background: #999;
 	cursor: pointer;
+}
+.display-opt .box li:hover,
+.display-opt .box li.active {
+	background: #999;
 }
 .display-opt .box li + li {
 	margin-left: 2px;
@@ -283,4 +284,7 @@ body {
 .display-opt .box li svg {
 	width: 42px;
 	height: 42px;
+}
+.display-opt .box li.active svg path {
+	fill: #fff;
 }
