@@ -156,7 +156,7 @@ body {
 .welcome p strong {
 	color: #fff;
 }
-.welcome .btn {
+.btn {
 	padding: 0 12px;
 	color: #fff;
 	font-size: 13px;
@@ -166,13 +166,13 @@ body {
 	line-height: 38px;
 	display: inline-block;
 }
-.welcome .btn-primary {
+.btn-primary {
 	background: #ea4c89 url("https://d13yacurqjgara.cloudfront.net/assets/button-glass-861b265bf67caff1d6e613ca1758ce443b59d676cb7fceca293a9891aef250a8.png") repeat-x 0 0;
 }
 .welcome .btn:hover {
 	background: #888;
 }
-.welcome .btn-primary:hover {
+.btn-primary:hover {
 	background: #df3e7b url("https://d13yacurqjgara.cloudfront.net/assets/button-glass-861b265bf67caff1d6e613ca1758ce443b59d676cb7fceca293a9891aef250a8.png") repeat-x 0 0;
 }
 
@@ -429,6 +429,9 @@ body {
 	width: 1750px;
 	margin: 30px auto;
 }
+.cards-grid ul {
+	overflow: auto;
+}
 @media screen and (max-width: 1770px) { .cards-grid { width: 1500px; } }
 @media screen and (max-width: 1530px) { .cards-grid { width: 1250px; } }
 @media screen and (max-width: 1270px) { .cards-grid { width: 1000px; } }
@@ -439,7 +442,7 @@ body {
 	background: #fff;
 	border-radius: 2px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-	margin: 0 15px 30px 15px;
+	margin: 0 15px 60px 15px;
 	float: left;
 	position: relative;
 }
@@ -513,4 +516,28 @@ body {
 	border-radius: 100%;
 	float: left;
 	margin-right: 5px;
+}
+
+.continue-links {
+	text-align: center;
+	clear: both;
+	margin-top: 25px;
+}
+.continue-links a {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	color: #3a8bbb;
+	font-size: 14px;
+}
+.continue-links a:hover {
+	color: #1e6189;
+}
+.continue-links .btn {
+	color: #fff;
+}
+.continue-links .btn:hover {
+	color: #fff;
 }
