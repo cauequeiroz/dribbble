@@ -175,6 +175,7 @@ body {
 	height: 50px;
 	background: rgba(255,255,255,0.6);
 	border-bottom: 1px solid #e5e5e5;
+	position: relative;
 }
 
 .dropdown > li {
@@ -214,4 +215,72 @@ body {
 .dropdown .submenu li:hover {
 	color: #444;
 	background: #eee;
+}
+
+.display-opt {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+.display-opt .trigger {
+	width: 34px;
+	height: 30px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	cursor: pointer;
+	overflow: auto;
+}
+.display-opt .trigger .icon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url("https://d13yacurqjgara.cloudfront.net/assets/icon-shot-options-e5ecd0cd64a0a2d9f4439646908f4d50994452de9c1cc8a7f65448289063f60c.png?2") no-repeat 0 0;
+	margin: 7px 0 0 9px;
+}
+.display-opt:hover .trigger {
+	background: #333;
+}
+.display-opt:hover .trigger .icon {
+	background-position: 0 -32px;
+}
+
+.display-opt:hover .box {
+	display: block;
+}
+.display-opt .box {
+	display: none;
+	position: absolute;
+	top: 25px;
+	right: 0;
+	width: 218px;
+	background: #333;
+	text-align: left;
+	padding: 15px;
+	border-radius: 4px;
+	
+}
+.display-opt .box p {
+	font-size: 12px;
+	color: #ccc;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.display-opt .box li {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	background: #505050;
+	border-radius: 2px;
+}
+.display-opt .box li:hover {
+	background: #999;
+	cursor: pointer;
+}
+.display-opt .box li + li {
+	margin-left: 2px;
+}
+.display-opt .box li svg {
+	width: 42px;
+	height: 42px;
 }
