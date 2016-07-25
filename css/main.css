@@ -299,3 +299,122 @@ body {
 .display-opt .box li.active svg path {
 	fill: #fff;
 }
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+.main-footer {
+	overflow: auto;
+	padding: 30px;
+	color: #999;
+	font-size: 13px;
+	background: #fff;
+	margin-top: 50px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.info img {
+	display: block;
+	margin-bottom: 5px;
+}
+.info a:hover img {
+	opacity: .8;
+}
+.info .slogan {
+	display: block;
+	font-size: 15px;
+	margin-bottom: 10px;	
+}
+.info p {
+	width: 310px;
+}
+
+.nav-alt li {
+	line-height: 1.8;
+	width: 33%;
+	float: left;
+}
+.nav-alt li a:hover {
+	color: #444;
+}
+
+.jobs h2 {
+	font-size: 14px;
+}
+.jobs h2:hover {
+	color: #444;
+}
+.jobs li {
+	margin-top: 15px;
+}
+.jobs img {
+	float: left;
+	width: 30px;
+	margin-right: 10px;
+	border-radius: 100%;
+}
+.jobs .title {
+	color: #3a8bbb;
+	font-size: 14px;
+}
+.jobs .desc {
+	font-size: 12px;
+}
+.jobs a:hover img,
+.jobs a:hover p {
+	opacity: .8;
+}
+
+.ads {
+	width: 450px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	background: #ddd;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+.ads:hover {
+	color: #ddd;
+	background: none;
+}
+
+.copyright {
+	margin-top: 30px;
+}
+.copyright p {
+	margin-bottom: 10px;
+}
+.copyright li {
+	display: inline-block;
+	margin-right: 8px;
+}
+.copyright li img {
+	opacity: .37;
+}
+.copyright li img:hover {
+	opacity: .72;
+}
+
+.dribbbled {
+	font-size: 14px;
+	padding-left: 54px;
+	background: url("https://d13yacurqjgara.cloudfront.net/assets/ball-2acfbb9fdf187a34b07a7cc209d07025b39697eba6302c54942a556c10b3fa94.png") no-repeat left center;
+	height: 56px;
+	padding-top: 4px;
+	margin-top: 30px;
+}
+.dribbbled strong {
+	display: block;
+	color: #333;
+	font-weight: bold;
+	font-size: 22px;
+}
