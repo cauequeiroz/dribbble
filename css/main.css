@@ -82,6 +82,7 @@ body {
 
 .submenu {
 	display: none;
+	z-index: 200;
 	position: absolute;
 	top: 56px;
 	left: 0;
@@ -258,6 +259,7 @@ body {
 }
 .display-opt .box {
 	display: none;
+	z-index: 200;
 	position: absolute;
 	top: 25px;
 	right: 0;
